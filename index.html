@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <script>
 
 function get_location() {
@@ -25,28 +24,20 @@ function put_marker(from_left, from_top) {
         style.display = "block";
     }
 };
-
+	
 </script>
-
 
 <body>
 
 <div id="container" style="width:1818px;">
-
   <img src="red.svg" id="marker" width="15px" height="15px" style="display: none; position: absolute" />
   <img src="3rdFloor.jpg" width="1818" height="937" id="map"  />
-
 </div>
 
 <form name="parts">
-	<input type="text" name="item" size="10">
-	<input type="button" onclick="get_location();" value="Search"> 
+  <input type="text" name="item" size="10">
+  <input type="button" onclick="get_location();" value="Search"> 
 </form>
-
-
-
-
-
 
 </body>
 </html>
