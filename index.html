@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html>
 
+<script>
+
+function get_location() {
+
+    var location = document.forms['parts']['item'].value;
+
+    if (location == "Amber Lewandowski")     
+         coordinates = [81,331];
+    else if( location == "Canada") 
+         coordinates = [100,80];
+    else 
+         alert("Not found");
+
+    document.getElementById('map').onload = put_marker(coordinates[0], coordinates[1]);
+
+}
+
+function put_marker(from_left, from_top) {
+    with(document.getElementById('marker')) {
+        style.left = from_left + "px";
+        style.top = from_top + "px";
+        style.display = "block";
+    }
+};
+
+</script>
+
+
 <body>
 
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<div id="container" style="width:1818px;">
+
+  <img src="red.svg" id="marker" width="15px" height="15px" style="display: none; position: absolute" />
+  <img src="3rdFloor.jpg" width="1818" height="937" id="map"  />
+
+</div>
+
+<form name="parts">
+	<input type="text" name="item" size="10">
+	<input type="button" onclick="get_location();" value="Search"> 
+</form>
+
+
+
+
+
 
 </body>
-
 </html>
