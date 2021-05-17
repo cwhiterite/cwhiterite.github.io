@@ -50,7 +50,9 @@ function find_desk() {
   
   var x = document.getElementById("mySelect").value;
 
-  if (x == "Amber Lewandowski") 
+  if (x == "Name") 
+    {document.getElementById('marker').style.display = 'none';} 
+else  if (x == "Amber Lewandowski") 
     {coordinates = [623,226]; put_marker(coordinates[0], coordinates[1], "3rd");}     
 else if (x == "Alonso Vargas Gross") 
     {coordinates = [638,259]; put_marker(coordinates[0], coordinates[1], "3rd");}
