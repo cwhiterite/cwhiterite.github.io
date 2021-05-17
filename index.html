@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
+
 <style>
 
 button, input, select, label {
@@ -11,53 +12,82 @@ button, input, select, label {
   padding: 6px;
   margin: 10px;
 }
-	
-div.fixed {
+  
+div.static {
   position: static;
   top: 0;
   left: 0;
   width: 980px; 
   height: 1650px;
-  background-image:url("./3rdFloor2.jpg");
+  background-image:url("3rdFloor2.jpg");
 } 
-	
+  
 div.centered {
   position: relative;
   top: 35px;
   width: 900px;
   margin: auto;
-} 
-
-div.absolute {
-  position: absolute;
-  bottom: 80px;
-  left: 80px;
-  width: 200px;
-  height: 100px;
-  border: 3px solid #000000;
 }
   
-</style>
+</style>  
+
+<script>
+
+function put_marker(from_left, from_top, floor) {
+    with(document.getElementById('marker')) {
+        style.left = from_left + "px";
+        style.top = from_top + "px";
+        style.display = "block";
+
+        if (floor == "3rd")
+          document.getElementById('map').style.backgroundImage="url(3rdFloor2.jpg)";
+        else if (floor == "4th")
+          document.getElementById('map').style.backgroundImage="url(4thFloor2.jpg)";
+    }
+}
+
+function find_desk() {
+  
+  var x = document.getElementById("mySelect").value;
+
+  if (x == "Mercedes") 
+    {coordinates = [81,400]; put_marker(coordinates[0], coordinates[1], "3rd");}     
+  else if (x == "Volvo") 
+    {coordinates = [101,500]; put_marker(coordinates[0], coordinates[1], "4th");}
+  else
+     {document.getElementById('marker').style.display = 'none';} 
+}
+
+</script>
 </head>
 
- <body style="background-color:#365059; min-height: 1650px;">
-  
- <div class="fixed">
- <div class="centered">
- <form action="">
-  <label for="names" style="color:#ffffff;">Select:</label>
-  <select name="names" id="names" style="width:45%">
-	  <option value="Name">Name</option>
-	  <option value="volvo">Volvo</option>
-	  <option value="volvo">Volvo</option>
-	  <option value="saab">Saab</option>
-	  <option value="mercedes">Mercedes</option>
-	  <option value="audi">Audi</option>
-  </select>
-  <input type="submit" value="Submit" style="width:30%">
- </form>
- </div>
- </div>
 
- </body>
+<body style="min-height: 1650px;">
+
+<div id="map" class="static" style="width:980px;">
+ <div class="centered">
+  <form name="select">
+  <label for="mySelect" style="color:#ffffff;">Select:</label>
+  <select id="mySelect" onchange="find_desk()" style="width:76%">
+   <option value="Audi">Audi</option>
+   <option value="BMW">BMW</option>
+   <option value="Mercedes">Mercedes</option>
+   <option value="Volvo">Volvo</option>
+  </select>
+</form>
+</div>
+
+  <img 
+  id="marker" 
+  src="red.svg" 
+  width="15px" 
+  height="15px" 
+  style="display:none; 
+  position:absolute;"
+  />
+  
+  
+</div>
+
+</body>
 </html>
