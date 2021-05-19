@@ -46,7 +46,7 @@ else if (x == "Alex Welch")
 else if (x == "Aliccia Cardona")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alicia Crosley")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [343,705]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Allison Thieman")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alonso Vargas Gross")
@@ -76,7 +76,7 @@ else if (x == "Andrew Vossler")
 else if (x == "Angel Phares")
     {coordinates = [171,444]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Angela Byrnes")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [210,618]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Anna Lucsok")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Annette Darnall")
@@ -132,7 +132,7 @@ else if (x == "Bryan Dolan")
 else if (x == "Bryan Fore")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Caitlyn Grathwohl")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [250,733]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Cameryn Mammenga")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Carisa Roth")
@@ -230,7 +230,7 @@ else if (x == "Dylan Wheeler")
 else if (x == "Eddie Irgens")
     {coordinates = [713,425]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Eileen Thompson")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [238,701]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Eliza Howard")
     {coordinates = [728,606]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Elizabeth Jackson")
@@ -242,7 +242,7 @@ else if (x == "Emma Mace")
 else if (x == "Enrica Canaday")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ereka Maglambayan")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [281,724]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Erich Staats")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Erin Monty")
@@ -288,7 +288,7 @@ else if (x == "Janna Sims")
 else if (x == "Jariel Cabell")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Jazmine Terrazas")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [275,598]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Jerry Pumphrey")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Jesse-Lee Trawick")
@@ -334,7 +334,7 @@ else if (x == "Kassie Perkins")
 else if (x == "Kat Koncki")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kate Zerbi")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [275,599]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Katherine Hardin")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kathleen Salomonson")
@@ -456,13 +456,13 @@ else if (x == "Michelle Ramirez")
 else if (x == "Miguel Quintana")
     {coordinates = [653,442]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Mikayla Rice")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [312,716]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Mike Vandeventer")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Mitchell Johnson")
     {coordinates = [762,755]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Morgan Diettert")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [224,650]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Mya Adrianzen")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nakayla Smith")
@@ -534,9 +534,9 @@ else if (x == "Sara Briggs")
 else if (x == "Sarah Cibark")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sarah Lussier")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [268,693]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Satoko Pallarito")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [289,630]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Savannah Krause")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Savannah Perry")
@@ -548,7 +548,7 @@ else if (x == "Scott Anderson")
 else if (x == "Scott Martley")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Sean Allen")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [297,684]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sebastiana Saya")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Seneca Sadler")
@@ -584,7 +584,7 @@ else if (x == "Susannah Logan")
 else if (x == "Sydney Kemmerzell")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Tabitha Lazarte")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [259,639]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Tandra Caldwell")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Tanzania White")
