@@ -32,7 +32,7 @@ else if (x == "Aeneas Roberson")
 else if (x == "Aiden Pirrin")
     {coordinates = [853,729]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alayna Doskins")
-    {coordinates = [335,1181]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [543,1136]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alec Williams")
     {coordinates = [823,738]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alex Beatty")
@@ -68,7 +68,7 @@ else if (x == "Andrea Newman")
 else if (x == "Andrew Bachman")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Andrew Cole")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [531,1225]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Andrew Fisher")
     {coordinates = [714,577]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Andrew Vossler")
@@ -100,8 +100,6 @@ else if (x == "Austin Mayo")
 else if (x == "Ayanle Buni")
     {coordinates = [457,346]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Bailey Brown")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Ben Rakov")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ben Veltri")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
@@ -182,7 +180,7 @@ else if (x == "Courtney Reyes")
 else if (x == "Courtney Schlichting")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Craig White")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [658,1223]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Cristlin Denhardt")
     {coordinates = [740,512]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Dan Moorhead")
@@ -444,7 +442,7 @@ else if (x == "Michael Crockett")
 else if (x == "Michael Cuasito")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Michael Majoue")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [554,1545]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Michael Webb")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Michell Pak")
@@ -576,7 +574,7 @@ else if (x == "Stephanie Kline")
 else if (x == "Steve Hardon")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Steven Trapani")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [659,1175]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Susan Carver")
     {coordinates = [119,368]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Susannah Logan")
@@ -606,7 +604,7 @@ else if (x == "Theresa McKinster")
 else if (x == "Thomas Sandgaard")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Tiffany Lewis")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [550,1469]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Tori Paris")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Trissa Nelson")
