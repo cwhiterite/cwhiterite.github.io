@@ -259,6 +259,8 @@ else if (x == "Gianna Meyers")
     {coordinates = [245,459]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Grace DeDonatis")
     {coordinates = [697,615]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Halie Malacha")
+    {coordinates = [329,676]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Harrison Tanksley")
     {coordinates = [530,1094]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Hope Calderon")
