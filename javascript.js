@@ -241,6 +241,8 @@ else if (x == "Enrica Canaday")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ereka Maglambayan")
     {coordinates = [281,724]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Erica Fairchild")
+    {coordinates = [403,837]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Erich Staats")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Erin Monty")
