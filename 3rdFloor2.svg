@@ -9210,4 +9210,8 @@
 	
 		<line fill="none" stroke="#C4C4C4" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="312.187" y1="407.228" x2="298.651" y2="411.085"/>
 </g>
+<g id="Layer_5">
+	<rect x="37.58" y="403.557" fill="none" width="145.493" height="98.995"/>
+	<text transform="matrix(1 0 0 1 37.5796 430.0479)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="37">3rd</tspan><tspan x="0" y="44.4" fill="#FFFFFF" font-family="'ArialMT'" font-size="37">Floor</tspan></text>
+</g>
 </svg>
