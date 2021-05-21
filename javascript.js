@@ -360,7 +360,7 @@ else if (x == "Kierstin O'Connor")
 else if (x == "Kim Botts")
     {coordinates = [583,1473]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kim Frost")
-    {coordinates = [640,1474]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [640,1474]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kirk Usui")
     {coordinates = [373,1321]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Kristine Condie")
