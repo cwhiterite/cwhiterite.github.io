@@ -29,10 +29,11 @@ div.centered {
   margin: auto;
 }
   
- div.centered2 {
+  div.centered2 {
   position: relative;
-  top: 600px;
-  width: 100px;
+  top: 1000px;
+  left: 50px;
+  width: 170px;
   /*margin: auto;*/
 }
   
@@ -43,15 +44,13 @@ div.centered {
 </head>
 
 
-<body style="min-height: 1650px; background-color:black;">
+<body style="min-height: 1650px; background-color:white;">
 
 <div id="map" class="static" style="width:980px; background-color:black;">
- 
-  
  <div class="centered">
   <form name="select">
   <label for="mySelect" style="color:#ffffff;">Select:</label>
-  <select id="mySelect" onchange="find_desk()" style="width:76%">
+  <select id="mySelect" onchange="find_desk()" style="width:76%;">
 <option>Name</option>
 <option>Abigail Parris</option>
 <option>Abigail Stratton</option>
@@ -356,15 +355,15 @@ div.centered {
 </form>
 </div>
 
-<div class="centered2">
+ <div class="centered2">
  <form name="buttons">
-   <input type="submit" value="A-F">
-   <input type="submit" value="G-L">
-   <input type="submit" value="M-R">
-   <input type="submit" value="S-Z">
+   <input type="submit" value="A-F" style="width:100%">
+   <input type="submit" value="G-L" style="width:100%">
+   <input type="submit" value="M-R" style="width:100%">
+   <input type="submit" value="S-Z" style="width:100%">
  </form>
-</div>
-  
+ </div>
+
   <img 
   id="marker" 
   src="./dot.png" 
@@ -374,10 +373,9 @@ div.centered {
   position:absolute;"
   />
   
-  
 </div>
 
 
-  
+
 </body>
 </html>
