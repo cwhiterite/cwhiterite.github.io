@@ -592,7 +592,7 @@ else if (x == "Tiffany Lewis")
 else if (x == "Tighree Thomas")
     {coordinates = [449,1449]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Tori Paris")
-    {coordinates = [629,355]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [629,355]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Trissa Nelson")
     {coordinates = [634,412]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ty Teply")
