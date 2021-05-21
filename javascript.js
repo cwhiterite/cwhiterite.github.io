@@ -5,7 +5,7 @@ function put_marker(from_left, from_top, floor) {
         style.display = "block";
 
         if (floor == "3rd")
-          document.getElementById('map').style.backgroundImage="url(./3rdFloor.jpg)";
+          document.getElementById('map').style.backgroundImage="url(./3rdFloor2.svg)";
         else if (floor == "4th")
           document.getElementById('map').style.backgroundImage="url(./4thFloor.jpg)";
     }
