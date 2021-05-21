@@ -203,8 +203,6 @@ else if (x == "Delia Madril")
     {coordinates = [310,677]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Derek Caldwell")
     {coordinates = [548,544]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Derek Romero")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Destiny Soria")
     {coordinates = [845,1316]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Devan Zwygart")
@@ -329,8 +327,6 @@ else if (x == "Kartik Sharma")
     {coordinates = [176,387]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kassie Perkins")
     {coordinates = [368,880]; put_marker(coordinates[0], coordinates[1], "4th");}
-else if (x == "Kat Koncki")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kate Zerbi")
     {coordinates = [275,599]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Katherine Hardin")
