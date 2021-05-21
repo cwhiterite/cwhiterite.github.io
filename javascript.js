@@ -1,10 +1,3 @@
-
-
-function hide_form() {
-    document.getElementById('mySelect').style.display = 'none';
-}
-
-
 function put_marker(from_left, from_top, floor) {
     with(document.getElementById('marker')) {
         style.left = from_left + "px";
