@@ -493,7 +493,7 @@ else if (x == "Raymond Thal")
 else if (x == "Raymundo Saldana")
     {coordinates = [755,600]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Reagan Zizmann")
-    {coordinates = [479,665]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [479,665]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Regan King")
     {coordinates = [639,744]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Robby Sanders")
