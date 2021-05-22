@@ -347,7 +347,7 @@ else if (x == "Kelsey Crane")
 else if (x == "Kelsey Hays")
     {coordinates = [427,674]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Kelsey Houchen")
-    {coordinates = [145,396]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [145,396]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kerigan Kelly")
     {coordinates = [278,723]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kevin Fernandez")
