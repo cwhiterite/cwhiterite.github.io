@@ -1,5 +1,5 @@
 
-var elem = document.getElementById("map");
+var elem = document.getElementById("body");
 
 function openFullscreen() {
   if (elem.requestFullscreen) {
