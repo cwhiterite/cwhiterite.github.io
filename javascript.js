@@ -499,6 +499,8 @@ else if (x == "Regan King")
     {coordinates = [639,744]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Robby Sanders")
     {coordinates = [350,761]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Robert Larsen")
+    {coordinates = [742,568]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Rowan Clifford")
     {coordinates = [661,307]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Sabrina Eskanos")
