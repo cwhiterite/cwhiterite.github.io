@@ -572,7 +572,7 @@ else if (x == "Tandra Caldwell")
 else if (x == "Tanzania White")
     {coordinates = [427,863]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Tasha Nguyen")
-    {coordinates = [434,1530]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [336,1439]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Tawney Crump")
     {coordinates = [698,1475]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Taylor Lyon")
