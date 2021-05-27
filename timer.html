@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+p {
+	margin:0px;
+}
+
+
+div.centered {
+  margin: auto;
+  text-align:center;
+}
+
+div.timer {
+	margin:auto;
+}
+
+button {
+  background-color:red;
+	border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+div.reset {
+
+	margin:auto;
+}
+
+</style>
+
+</head>
+<body style="background:red">
+
+<div class="centered">
+</br></br>
+<p id=title style="font-size:30px; font-family:Arial;"><b>TIME SINCE LAST PASSWORD RESET REQUEST</b></p>
+<p id="demo" style="font-size:120px; font-family:Arial;"></p>
+
+
+<button id="button" onclick="reset()">Reset</button>
+</div>
+
+
+
+
+<script>
+
+
+
+// Set the date we're counting down to
+var countDownDate = new Date("May 27, 2021 15:37:25").getTime();
+
+function reset() {
+	var now = new Date().getTime();
+	countDownDate = now;
+}
+
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = now - countDownDate;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
