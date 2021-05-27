@@ -8,20 +8,15 @@ p {
 	margin:0px;
 }
 
-
 div.centered {
   margin: auto;
   text-align:center;
 }
 
-div.timer {
-	margin:auto;
-}
-
 button {
   background-color:red;
-width:200px;
-	border: 1px solid black;
+  width:200px;
+  border: 1px solid black;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -31,30 +26,21 @@ width:200px;
   margin: 4px 2px;
 }
 
-div.reset {
-
-	margin:auto;
-}
-
 </style>
 
 </head>
+	
 <body style="background:red">
 
 <div class="centered">
 </br>
-<p id=title style="font-size:30px; font-family:Arial;"><b>TIME SINCE LAST PASSWORD RESET REQUEST</b></p>
+<p style="font-size:30px; font-family:Arial;"><b>TIME SINCE LAST PASSWORD RESET REQUEST</b></p>
 <p id="demo" style="font-size:120px; font-family:Arial;"></p>
 </br>
 <button id="button" onclick="reset()">Reset</button>
 </div>
 
-
-
-
 <script>
-
-
 
 // Set the date we're counting down to
 var countDownDate = new Date("May 27, 2021 15:37:25").getTime();
@@ -83,13 +69,9 @@ var x = setInterval(function() {
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = days + "d  " + hours + "h  "
   + minutes + "m  " + seconds + "s  ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
+	
 }, 1000);
+	
 </script>
 
 </body>
