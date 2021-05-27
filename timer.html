@@ -20,7 +20,8 @@ div.timer {
 
 button {
   background-color:red;
-	border: 2px solid black;
+width:200px;
+	border: 1px solid black;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -44,7 +45,7 @@ div.reset {
 </br></br>
 <p id=title style="font-size:30px; font-family:Arial;"><b>TIME SINCE LAST PASSWORD RESET REQUEST</b></p>
 <p id="demo" style="font-size:120px; font-family:Arial;"></p>
-
+</br>
 
 <button id="button" onclick="reset()">Reset</button>
 </div>
@@ -81,8 +82,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "d  " + hours + "h  "
+  + minutes + "m  " + seconds + "s  ";
     
   // If the count down is over, write some text 
   if (distance < 0) {
