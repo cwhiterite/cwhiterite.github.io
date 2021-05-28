@@ -41,7 +41,7 @@ else {
   }
 }
     
-}, 10);
+}, 1000);
 
 
 function reset() {
