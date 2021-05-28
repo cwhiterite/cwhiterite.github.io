@@ -32,7 +32,6 @@ if(colorIndex % 2 == 0) {
       colorIndex++;
   }
 }
-
 // if the number is odd
 else {
     if (minutes <= 30) {
@@ -44,9 +43,10 @@ else {
 }, 1000);
 
 
+
 function reset() {
-	var now = new Date().getTime();
-	lastDate = now;
+  var now = new Date().getTime();
+  lastDate = now;
   colorIndex = 0;
 }
 
