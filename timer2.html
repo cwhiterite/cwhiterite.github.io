@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 
 p {
@@ -11,10 +11,7 @@ p {
 div.centered {
   margin: auto;
   text-align:center;
-}
-
-div.timer {
-	margin:auto;
+  width: 100%;
 }
 
 button {
@@ -30,15 +27,12 @@ button {
   margin: 4px 2px;
 }
 
-div.reset {
-
-	margin:auto;
-}
 
 </style>
 </head>
 
-<body id="back" style="background:red" onload="myFunction()">
+
+<body id="back" style="background:red">
 
 <div class="centered">
 </br>
@@ -49,13 +43,14 @@ div.reset {
 
 
 
+
+
+
 <script>  
-
-
 
 var colorIndex = 0;
 // Set the date we're counting down to
-var lastDate = new Date("Aril 27, 2021 15:37:25").getTime();
+var lastDate = new Date("April 27, 2021 15:37:25").getTime();
 
 function reset() {
 	var now = new Date().getTime();
