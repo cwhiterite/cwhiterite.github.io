@@ -311,6 +311,8 @@ else if (x == "Joel Guegel")
     {coordinates = [745,568]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Johnny Woodson")
     {coordinates = [579,365]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Jordan Young")
+    {coordinates = [414,278]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Jordyn White")
     {coordinates = [567,372]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Joshua Quintana")
@@ -433,6 +435,8 @@ else if (x == "Michael Crockett")
     {coordinates = [287,629]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Michael Cuasito")
     {coordinates = [468,1466]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Michael Dicicco")
+    {coordinates = [686,524]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Michael Majoue")
     {coordinates = [554,1545]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Michael Webb")
@@ -469,6 +473,8 @@ else if (x == "Nicholas Lengyel")
     {coordinates = [527,250]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicole Bramwell")
     {coordinates = [709,1263]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Nicole Esquivel")
+    {coordinates = [695,618]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Noah Robinson")
     {coordinates = [162,539]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Padraig O'Flannery")
@@ -500,7 +506,7 @@ else if (x == "Regan King")
 else if (x == "Robby Sanders")
     {coordinates = [350,761]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Robert Larsen")
-    {coordinates = [742,568]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [741,570]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Rowan Clifford")
     {coordinates = [661,307]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ryan Fee")
