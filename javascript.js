@@ -77,6 +77,8 @@ else if (x == "Angel Phares")
     {coordinates = [171,444]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Angela Byrnes")
     {coordinates = [210,618]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    else if (x == "Angela Pastor")
+    {coordinates = [709,1177]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Anna Lucsok")
     {coordinates = [864,1231]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Annette Darnall")
@@ -468,7 +470,7 @@ else if (x == "Nicholas Hoins")
 else if (x == "Nicholas Lengyel")
     {coordinates = [527,250]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicole Bramwell")
-    {coordinates = [866,1195]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [709,1263]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Noah Robinson")
     {coordinates = [162,539]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Padraig O'Flannery")
@@ -503,6 +505,8 @@ else if (x == "Robert Larsen")
     {coordinates = [742,568]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Rowan Clifford")
     {coordinates = [661,307]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Ryan Fee")
+    {coordinates = [708,1468]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sabrina Eskanos")
     {coordinates = [784,1252]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sabrina Salas")
@@ -611,6 +615,8 @@ else if (x == "Wendy Valenzuela")
     {coordinates = [404,1507]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Wesley Barron")
     {coordinates = [674,530]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Wil-an Losande")
+    {coordinates = [336,1468]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "William Neville")
     {coordinates = [849,729]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "William Salter")
