@@ -267,8 +267,6 @@ else if (x == "Halie Malacka")
     {coordinates = [329,676]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Harrison Tanksley")
     {coordinates = [530,1094]; put_marker(coordinates[0], coordinates[1], "4th");}
-else if (x == "Hope Calderon")
-    {coordinates = [585,333]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Hunter Ouellette")
     {coordinates = [242,608]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Irene Diggins")
