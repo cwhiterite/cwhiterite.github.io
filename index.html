@@ -13,6 +13,11 @@ button, input, select, label {
   margin-bottom: 50px;
   
 }
+  
+p {
+  font-family="Arial"; 
+  font-size="290%";
+}  
 
 div.static {
   position: static;
@@ -58,7 +63,7 @@ div.updated {
 <body id="body" style="min-height: 1650px; width:980px; background-color:black;">
 
 <div id="map" class="static" style="width:980px; background-color:black;">
- <div class="centered" font-family="Arial"; font-size="290%";>
+ <div class="centered">
   <form name="select" id="selectForm">
   <label for="mySelect" style="color:#000000;">A-C:</label>
   <select id="mySelect" onchange="find_desk()" style="width:82%;">
@@ -146,7 +151,7 @@ div.updated {
 <option>Cristlin Denhardt</option>  
   </select>
 </form>
-Updated 6/30</div>
+<p>Updated 6/30</p></div>
 
 <img 
   id="marker" 
