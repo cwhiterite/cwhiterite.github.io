@@ -26,7 +26,7 @@ else if (x == "Adam Ogletree")
 else if (x == "Adam Satterfield")
     {coordinates = [702,485]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Adeline Cooper")
-    {coordinates = [827,675]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [512,464]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Aeneas Roberson")
     {coordinates = [354,851]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Aiden Pirrin")
