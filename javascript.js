@@ -446,7 +446,7 @@ else if (x == "Nakayla Smith")
 else if (x == "Natalia Soureka")
     {coordinates = [280,688]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Navneet Saini")
-    {coordinates = [405,1179]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [406,1301]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Nicholas Han")
     {coordinates = [169,481]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicholas Hoins")
