@@ -264,7 +264,7 @@ else if (x == "Ivan Kuo")
 else if (x == "Ivy Edmonds")
     {coordinates = [380,751]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Jacob Toman Ibarra")
-    {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [497,964]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Jade Mayo")
     {coordinates = [194,532]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Jaden Leiker")
