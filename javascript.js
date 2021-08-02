@@ -534,7 +534,7 @@ else if (x == "Scott Martley")
 else if (x == "Sean Allen")
     {coordinates = [297,684]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sean Morrell")
-    {coordinates = [646,541]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [577,426]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Seneca Sadler")
     {coordinates = [409,358]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Shad Moir")
