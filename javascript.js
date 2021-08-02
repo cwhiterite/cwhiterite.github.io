@@ -155,6 +155,8 @@ else if (x == "Christie Apon")
     {coordinates = [813,642]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Christina Mullen")
     {coordinates = [845,1132]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Christopher Losacco")
+    {coordinates = [709,1472]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Cindy Arias")
     {coordinates = [359,1146]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "CoCo Hu")
