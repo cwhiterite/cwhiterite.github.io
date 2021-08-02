@@ -314,7 +314,7 @@ else if (x == "Kamela Gjinaj")
 else if (x == "Kassie Perkins")
     {coordinates = [368,880]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kate Zerbi")
-    {coordinates = [275,599]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [243,605]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Katherine Hardin")
     {coordinates = [696,1180]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Kathleen Salomonson")
