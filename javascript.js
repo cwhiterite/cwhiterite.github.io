@@ -97,6 +97,8 @@ else if (x == "Ashley Outcalt")
     {coordinates = [736,664]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Zetzsche")
     {coordinates = [305,588]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    else if (x == "Aspen Conference")
+    {coordinates = [488,606]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ayanle Buni")
     {coordinates = [457,346]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Bailey Brown")
