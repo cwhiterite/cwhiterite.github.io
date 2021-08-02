@@ -143,6 +143,8 @@ else if (x == "Charlette Walker")
     {coordinates = [392,591]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Charly Guynes")
     {coordinates = [246,734]; put_marker(coordinates[0], coordinates[1], "4th");}
+    else if (x == "Chase Henry")
+    {coordinates = [786,1257]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Chelsea Briggs")
     {coordinates = [0,0]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Chris Coyne")
