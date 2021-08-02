@@ -78,7 +78,7 @@ else if (x == "Angel Phares")
 else if (x == "Angela Byrnes")
     {coordinates = [210,618]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Angela Pastor")
-    {coordinates = [709,1177]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [543,1136]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Anna Lucsok")
     {coordinates = [864,1231]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "April De La Fuente")
