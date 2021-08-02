@@ -481,6 +481,8 @@ else if (x == "PsyNia Jefferson")
     {coordinates = [269,545]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Rachel Bachman")
     {coordinates = [184,571]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Rachel Szumiesz")
+    {coordinates = [306,679]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Raelynn Maloney")
     {coordinates = [863,1166]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Rainey Clark")
