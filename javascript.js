@@ -133,8 +133,6 @@ else if (x == "Cameryn Mammenga")
     {coordinates = [879,1233]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Carisa Roth")
     {coordinates = [336,1298]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Carmen Holleman")
-    {coordinates = [134,491]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Cassidy Swecker")
     {coordinates = [133,365]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Cavanaugh Hannan")
