@@ -43,8 +43,6 @@ else if (x == "Alex Welch")
     {coordinates = [89,376]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alexandra Jose")
     {coordinates = [656,537]; put_marker(coordinates[0], coordinates[1], "4th");}
-else if (x == "Aliccia Cardona")
-    {coordinates = [639,259]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Allison Thieman")
     {coordinates = [707,1136]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alonso Vargas Gross")
