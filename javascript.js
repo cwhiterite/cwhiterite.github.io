@@ -447,7 +447,7 @@ else if (x == "Mikayla Rice")
     {coordinates = [312,716]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Mitchell Johnson")
     {coordinates = [762,755]; put_marker(coordinates[0], coordinates[1], "3rd");}
-    else if (x == "Molly Witt")
+else if (x == "Molly Witt")
     {coordinates = [778,1194]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Morgan Diettert")
     {coordinates = [224,650]; put_marker(coordinates[0], coordinates[1], "3rd");}
