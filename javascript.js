@@ -557,6 +557,8 @@ else if (x == "Stacie Anderson")
     {coordinates = [361,1089]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Stephanie Kline")
     {coordinates = [660,498]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Steve Fox")
+    {coordinates = [864,1109]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Steve Hardon")
     {coordinates = [817,1535]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Steven Trapani")
