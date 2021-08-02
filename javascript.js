@@ -459,6 +459,8 @@ else if (x == "Nakayla Smith")
     {coordinates = [647,441]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Natalia Soureka")
     {coordinates = [280,688]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Nathan You")
+    {coordinates = [447,1183]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Navneet Saini")
     {coordinates = [406,1301]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Nicholas Han")
