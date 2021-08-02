@@ -278,7 +278,7 @@ else if (x == "Jaemi Paschal")
 else if (x == "Jake Moore")
     {coordinates = [810,739]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "James Nispel")
-    {coordinates = [816,1030]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [572,1204]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Janna Sims")
     {coordinates = [318,1234]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Jazmine Terrazas")
