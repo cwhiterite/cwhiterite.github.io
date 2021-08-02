@@ -369,6 +369,8 @@ else if (x == "Lauren Jopson")
     {coordinates = [542,647]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Lauren Mackrie")
     {coordinates = [413,831]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Lexus Thomas")
+    {coordinates = [664,628]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Lily Yesayan")
     {coordinates = [436,1402]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Linda Sirchia")
