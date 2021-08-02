@@ -34,7 +34,7 @@ else if (x == "Aiden Pirrin")
 else if (x == "Airelle Sibley")
     {coordinates = [681,436]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Alayna Doskins")
-    {coordinates = [543,1136]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [337,1184]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alec Williams")
     {coordinates = [823,738]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Alex Clark")
