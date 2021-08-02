@@ -505,6 +505,8 @@ else if (x == "Robert Larsen")
     {coordinates = [741,570]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Robert Moorhead")
     {coordinates = [219,559]; put_marker(coordinates[0], coordinates[1], "4th");}
+else if (x == "Rocklahoma Conference")
+    {coordinates = [427,955]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Rowan Clifford")
     {coordinates = [661,307]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Sam Ossareh")
@@ -615,6 +617,8 @@ else if (x == "William Neville")
     {coordinates = [849,729]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "William Salter")
     {coordinates = [879,967]; put_marker(coordinates[0], coordinates[1], "3rd");}
+else if (x == "Winterpark Conference")
+    {coordinates = [356,979]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Zachary Kugler")
     {coordinates = [530,1222]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Zellie Elliott")
