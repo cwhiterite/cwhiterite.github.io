@@ -613,8 +613,6 @@ else if (x == "Wesley Barron")
     {coordinates = [674,530]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Wil-an Losande")
     {coordinates = [336,1468]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "William Neville")
-    {coordinates = [849,729]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "William Salter")
     {coordinates = [879,967]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Winterpark Conference")
