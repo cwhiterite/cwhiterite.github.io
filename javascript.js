@@ -82,7 +82,7 @@ else if (x == "Anna Lucsok")
 else if (x == "April De La Fuente")
     {coordinates = [750,696]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Ball")
-    {coordinates = [779,559]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [179,351]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Christner")
     {coordinates = [437,1320]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Gamble")
