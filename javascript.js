@@ -621,7 +621,7 @@ else if (x == "Zachary Kugler")
     {coordinates = [530,1222]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Zellie Elliott")
     {coordinates = [102,408]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Zenzie Sand")
+else if (x == "Kenzie Sand")
     {coordinates = [664,402]; put_marker(coordinates[0], coordinates[1], "4th");}
 else
      {document.getElementById('marker').style.display = 'none';} 
