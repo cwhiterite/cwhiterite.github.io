@@ -187,8 +187,6 @@ else if (x == "Courtney Schlichting")
     {coordinates = [583,623]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Craig White")
     {coordinates = [658,1223]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Cristlin Denhardt")
-    {coordinates = [740,512]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Dan Moorhead")
     {coordinates = [866,977]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Dana Doncer")
