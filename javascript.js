@@ -515,8 +515,6 @@ else if (x == "Rocklahoma Conference")
     {coordinates = [427,955]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Rowan Clifford")
     {coordinates = [661,307]; put_marker(coordinates[0], coordinates[1], "4th");}
-else if (x == "Ruben Nieves")
-    {coordinates = [598,364]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sam Ossareh")
     {coordinates = [133,400]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Samantha Aylward")
