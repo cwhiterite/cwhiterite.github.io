@@ -504,7 +504,7 @@ else if (x == "Raymond Thal")
 else if (x == "Rebecca Gilbert")
     {coordinates = [314,1325]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Regan King")
-    {coordinates = [639,744]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [698,617]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Robby Sanders")
     {coordinates = [350,761]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Robert Larsen")
