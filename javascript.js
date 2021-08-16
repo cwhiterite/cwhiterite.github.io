@@ -315,8 +315,6 @@ else if (x == "Kalie DePold")
     {coordinates = [514,464]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Kamela Gjinaj")
     {coordinates = [850,1529]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Kassie Perkins")
-    {coordinates = [368,880]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Katherine Hardin")
     {coordinates = [696,1180]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Katherine Vidal")
