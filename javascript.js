@@ -92,7 +92,7 @@ else if (x == "Ashley Christner")
 else if (x == "Ashley Gamble")
     {coordinates = [558,242]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ashley Johnson-Munoz")
-    {coordinates = [242,701]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [408,629]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ashley Martinez")
     {coordinates = [468,1381]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Ortega")
