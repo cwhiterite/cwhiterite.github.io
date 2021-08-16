@@ -68,7 +68,7 @@ else if (x == "Andrea Lindsay")
 else if (x == "Andrea Newman")
     {coordinates = [710,579]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Andrew Bachman")
-    {coordinates = [845,1051]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [868,1196]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Andrew Cole")
     {coordinates = [531,1225]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Andrew Fisher")
