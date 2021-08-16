@@ -533,8 +533,6 @@ else if (x == "Satoko Pallarito")
     {coordinates = [289,630]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Savannah Krause")
     {coordinates = [424,673]; put_marker(coordinates[0], coordinates[1], "4th");}
-else if (x == "Savannah Perry")
-    {coordinates = [150,361]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Savannah Trehus")
     {coordinates = [707,1425]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Scott Anderson")
