@@ -228,7 +228,7 @@ else if (x == "Elizabeth Jackson")
 else if (x == "Emily Harrison")
     {coordinates = [625,543]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Emma Mace")
-    {coordinates = [411,629]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [525,1474]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Enrica Canaday")
     {coordinates = [710,579]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ereka Maglambayan")
