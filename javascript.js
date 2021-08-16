@@ -118,7 +118,7 @@ else if (x == "Brandon Bradley")
 else if (x == "Brandy Parrish")
     {coordinates = [803,646]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Breanna Gondek")
-    {coordinates = [201,436]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    {coordinates = [317,1269]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Brian Richie")
     {coordinates = [596,326]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Brianna LoBello")
