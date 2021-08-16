@@ -463,8 +463,6 @@ else if (x == "Nathan You")
     {coordinates = [447,1235]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Navneet Saini")
     {coordinates = [406,1301]; put_marker(coordinates[0], coordinates[1], "3rd");}
-else if (x == "Nicholas Han")
-    {coordinates = [169,481]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicholas Hoins")
     {coordinates = [207,563]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Nicholas Lengyel")
