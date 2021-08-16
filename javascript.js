@@ -552,7 +552,7 @@ else if (x == "Shad Moir")
 else if (x == "Shea Bowers")
     {coordinates = [223,522]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sital Sharma")
-    {coordinates = [316,859]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [248,513]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Sloan McLin")
     {coordinates = [136,454]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sonja Hoff")
