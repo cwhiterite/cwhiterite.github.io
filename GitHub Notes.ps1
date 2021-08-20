@@ -20,7 +20,7 @@ $content = @{
   Path = "test.html"
   CommitMessage = "!"
   Content = $string
-  AccessToken = "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"
+  AccessToken = "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"
 }
 
 Set-GitHubContent @content
