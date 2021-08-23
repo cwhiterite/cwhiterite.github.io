@@ -569,6 +569,8 @@ else if (x == "Susan Carver")
     {coordinates = [119,368]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Susannah Logan")
     {coordinates = [709,1095]; put_marker(coordinates[0], coordinates[1], "3rd");}
+    else if (x == "Sydney Abeyta")
+    {coordinates = [598,365]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Sydney Kemmerzell")
     {coordinates = [673,495]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Tabitha Lazarte")
