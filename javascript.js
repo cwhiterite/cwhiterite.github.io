@@ -92,7 +92,7 @@ else if (x == "Ashley Christner")
 else if (x == "Ashley Gamble")
     {coordinates = [558,242]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ashley Johnson-Munoz")
-    {coordinates = [408,629]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [408,631]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Ashley Martinez")
     {coordinates = [468,1381]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Ashley Ortega")
@@ -184,7 +184,7 @@ else if (x == "Dan Moorhead")
 else if (x == "Dana Doncer")
     {coordinates = [395,782]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Dana Stanley")
-    {coordinates = [156,542]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [108,407]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Daniel Maes")
     {coordinates = [164,390]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Danin Oldershaw")
@@ -212,7 +212,7 @@ else if (x == "Dominica Vasquez")
 else if (x == "Donald Gregg")
     {coordinates = [863,1044]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Dolly Bailey")
-    {coordinates = [134,491]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [136,490]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Dylan Wheeler")
     {coordinates = [784,1317]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Eddie Irgens")
@@ -474,7 +474,7 @@ else if (x == "Navneet Saini")
 else if (x == "Nicholas Hoins")
     {coordinates = [318,1090]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicholas Lengyel")
-    {coordinates = [527,250]; put_marker(coordinates[0], coordinates[1], "4th");}
+    {coordinates = [366,883]; put_marker(coordinates[0], coordinates[1], "4th");}
 else if (x == "Nicole Bramwell")
     {coordinates = [709,1263]; put_marker(coordinates[0], coordinates[1], "3rd");}
 else if (x == "Nicole Esquivel")
