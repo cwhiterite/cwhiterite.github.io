@@ -1,172 +1,112 @@
 <!DOCTYPE html>
 <html>
-<head> 
 
-<style>
-
-button, input, select, label {
-  font-family: Arial;
-  font-size: 290%;
-  height: 80px;
-  padding: 10px;
-  margin: 10px;
-  margin-bottom: 50px;
-  
-}
-  
-div.static {
-  position: static;
-  top: 0;
-  left: 0;
-  width: 980px; 
-  height: 1650px;
-  background-image:url("./3rdFloor2.svg");
-  background-size: 100% 100%
-} 
-  
-div.centered {
-  position: relative;
-  top: 50px;
-  width: 880px;
-  margin: auto;
-  text-align:right;
-}
-  
-div.left {
-  position: relative;
-  top: 925px;
-  left: 50px;
-  width: 190px;
-}
-  
-div.updated {
-  position: absolute;
-  top: 200px;
-  width: 918px;
-  text-align:right;
-  color:#999999; 
-  font-family:Arial; 
-  font-size: 32px;
-}  
-    
-</style>  
-
-<script type="text/javascript" src="./javascript.js"></script>
-
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./javascript.js"></script>
+  <title>Zynex Building</title>
 </head>
-
 
 <body id="body" style="min-height: 1650px; width:980px; background-color:black;">
 
-<div id="map" class="static" style="width:980px; background-color:black;">
- <div class="centered">
-  <form name="select" id="selectForm">
-  <label for="mySelect" style="color:#000000;">A-C:</label>
-  <select id="mySelect" onchange="find_desk()" style="width:82%;">
-<option>Name</option>
-<option>Aaron Chick-Jones</option>
-<option>Abigail Parris</option>
-<option>Abigail Stratton</option>
-<option>Adam Ogletree</option>
-<option>Adam Satterfield</option>
-<option>Adeline Cooper</option>
-<option>Aeneas Roberson</option>
-<option>Aiden Pirrin</option>
-<option>Airelle Sibley</option>
-<option>Alayna Doskins</option>
-<option>Alexa Reed</option>
-<option>Alex Clark</option>
-<option>Alex Welch</option>
-<option>Alexandra Jose</option>
-<option>Allison Thieman</option>
-<option>Alonso Vargas Gross</option>
-<option>Amanda Burget</option>
-<option>Amanda Martinez</option>
-<option>Amber Bononcini</option>
-<option>Amber Lewandowski</option>
-<option>Amber McDondle</option>
-<option>Amy Sanford</option>
-<option>Andre Pyle</option>
-<option>Andrea Lindsay</option>
-<option>Andrea Newman</option>
-<option>Andrew Bachman</option>
-<option>Andrew Cole</option>
-<option>Andrew Fisher</option>
-<option>Andrew Vossler</option>
-<option>Angel Phares</option>
-<option>Angela Byrnes</option>
-<option>Angela Pastor</option>
-<option>Anna Lucsok</option>
-<option>April De La Fuente</option>
-<option>Ashley Ball</option>
-<option>Ashley Christner</option>
-<option>Ashley Gamble</option>
-<option>Ashley Johnson-Munoz</option>
-<option>Ashley Martinez</option>
-<option>Ashley Ortega</option>
-<option>Ashley Outcalt</option>
-<option>Ashley Zetzsche</option>
-<option>Aspen Conference</option>
-<option>Ayanle Buni</option>
-<option>Bailey Brown</option>
-<option>Ben Veltri</option>
-<option>Billy Carpenter</option>
-<option>Blake Scantlin</option>
-<option>Brandon Bradley</option>
-<option>Brandy Parrish</option>
-<option>Breanna Gondek</option>
-<option>Brian Richie</option>
-<option>Brianna LoBello</option>
-<option>Brianne Hoglin</option>
-<option>Bridget Frame</option>
-<option>Brittany Huber</option>
-<option>Brittany Tucker</option>
-<option>Bryan Dolan</option>
-<option>Caitlyn Grathwohl</option>
-<option>Caleb Santiago</option>
-<option>Cameryn Mammenga</option>
-<option>Carisa Roth</option>
-<option>Cavanaugh Hannan</option>
-<option>Charly Guynes</option>
-<option>Chase Henry</option>
-<option>Chris Coyne</option>
-<option>Christie Apon</option>
-<option>Christina Mullen</option>
-<option>Christopher Losacco</option>
-<option>Cindy Arias</option>
-<option>CoCo Hu</option>
-<option>Cole Crowl</option>
-<option>Colleen King</option>
-<option>Collin Bellum</option>
-<option>Connor Watkins</option>
-<option>Corey Scott</option>
-<option>Courtney Johnson</option>
-<option>Courtney Reyes</option>
-<option>Courtney Reyes (HR)</option>
-<option>Courtney Schlichting</option>
-<option>Craig White</option>
-  </select>
-</form>
-</div>
+  <div id="map" class="static" style="width:980px; background-color:black;">
+    <div class="centered">
+      <form name="select" id="selectForm">
+        <label for="mySelect" style="color:#000000;">A-C:</label>
+        <select id="mySelect" onchange="find_desk()" style="width:82%;">
+          <option>Name</option>
+          <option>Aaron Chick-Jones</option>
+          <option>Abigail Parris</option>
+          <option>Abigail Stratton</option>
+          <option>Adam Ogletree</option>
+          <option>Adam Satterfield</option>
+          <option>Adeline Cooper</option>
+          <option>Aeneas Roberson</option>
+          <option>Aiden Pirrin</option>
+          <option>Airelle Sibley</option>
+          <option>Alayna Doskins</option>
+          <option>Alex Clark</option>
+          <option>Alex Welch</option>
+          <option>Alexa Reed</option>
+          <option>Alexandra Jose</option>
+          <option>Allison Thieman</option>
+          <option>Alonso Vargas Gross</option>
+          <option>Amanda Burget</option>
+          <option>Amanda Martinez</option>
+          <option>Amber Bononcini</option>
+          <option>Amber Lewandowski</option>
+          <option>Amber McDondle</option>
+          <option>Amy Sanford</option>
+          <option>Andre Pyle</option>
+          <option>Andrea Lindsay</option>
+          <option>Andrea Newman</option>
+          <option>Andrew Bachman</option>
+          <option>Andrew Cole</option>
+          <option>Andrew Fisher</option>
+          <option>Andrew Vossler</option>
+          <option>Angel Phares</option>
+          <option>Angela Byrnes</option>
+          <option>Angela Pastor</option>
+          <option>Anna Lucsok</option>
+          <option>April De La Fuente</option>
+          <option>Ashley Ball</option>
+          <option>Ashley Christner</option>
+          <option>Ashley Gamble</option>
+          <option>Ashley Johnson-Munoz</option>
+          <option>Ashley Martinez</option>
+          <option>Ashley Ortega</option>
+          <option>Ashley Outcalt</option>
+          <option>Ashley Zetzsche</option>
+          <option>Aspen Conference</option>
+          <option>Ayanle Buni</option>
+          <option>Billy Carpenter</option>
+          <option>Blake Scantlin</option>
+          <option>Brandon Bradley</option>
+          <option>Brandy Parrish</option>
+          <option>Breanna Gondek</option>
+          <option>Brian Richie</option>
+          <option>Brianna LoBello</option>
+          <option>Brianne Hoglin</option>
+          <option>Bridget Frame</option>
+          <option>Brittany Huber</option>
+          <option>Brittany Tucker</option>
+          <option>Bryan Dolan</option>
+          <option>Caitlyn Grathwohl</option>
+          <option>Caleb Santiago</option>
+          <option>Cameryn Mammenga</option>
+          <option>Carisa Roth</option>
+          <option>Cavanaugh Hannan</option>
+          <option>Charly Guynes</option>
+          <option>Chase Henry</option>
+          <option>Chris Coyne</option>
+          <option>Christie Apon</option>
+          <option>Christina Mullen</option>
+          <option>Cindy Arias</option>
+          <option>CoCo Hu</option>
+          <option>Cole Crowl</option>
+          <option>Collin Bellum</option>
+          <option>Connor Watkins</option>
+          <option>Corey Scott</option>
+          <option>Courtney Johnson</option>
+          <option>Courtney Reyes</option>
+          <option>Courtney Reyes (HR)</option>
+          <option>Courtney Schlichting</option>
+          <option>Craig White</option>
+        </select>
+      </form>
+    </div>
 
-<img 
-  id="marker" 
-  src="./dot2.png" 
-  width="17px" 
-  height="17px" 
-  style="display:none; 
-  position:absolute;"
-/>
+    <img id="marker" src="./dot2.png" width="17px" height="17px" style="display:none;
+  position:absolute;" />
 
-<div class="left">
-<button style="width:100%" onclick="window.location.href='./index.html'">A-C</button>
-<button style="width:100%" onclick="window.location.href='./page2.html'">D-J</button>
-<button style="width:100%" onclick="window.location.href='./page3.html'">K-O</button>
-<button style="width:100%" onclick="window.location.href='./page4.html'">P-Z</button>
- </div>
+    <div class="left">
+      <button style="width:100%" onclick="window.location.href='./index.html'">A-C</button>
+      <button style="width:100%" onclick="window.location.href='./page2.html'">D-J</button>
+      <button style="width:100%" onclick="window.location.href='./page3.html'">K-O</button>
+      <button style="width:100%" onclick="window.location.href='./page4.html'">P-Z</button>
+    </div></div>
 
-</div>
-
-<div class="updated">Updated: 8/23</p>
+    <div class="updated">Updated: 9/1</p>
 </body>
+
 </html>
