@@ -14,7 +14,8 @@ function put_marker(from_left, from_top, floor) {
 function find_desk() {
     var x = document.getElementById("mySelect").value;
 
-    if (x == "Name") { document.getElementById('marker').style.display = 'none'; }
+    if (x == "Name") 
+    { document.getElementById('marker').style.display = 'none'; }
     else if (x == "Aaron Chick-Jones")
     {coordinates = [446,1361]; put_marker(coordinates[0], coordinates[1], "4th"); }
     else if (x == "Abigail Parris")
