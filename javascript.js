@@ -247,7 +247,7 @@ function find_desk() {
     else if (x == "Gana Sukhmyagmar")
     {coordinates = [466,1536]; put_marker(coordinates[0], coordinates[1], "3rd"); }
     else if (x == "Gerry Fremaint")
-    {coordinates = [,]; put_marker(coordinates[0], coordinates[1], "4th"); }
+    {coordinates = [244,699]; put_marker(coordinates[0], coordinates[1], "4th"); }
     else if (x == "Halie Malacka")
     {coordinates = [329,676]; put_marker(coordinates[0], coordinates[1], "3rd"); }
     else if (x == "Harrison Tanksley")
@@ -459,7 +459,7 @@ function find_desk() {
     else if (x == "Navneet Saini")
     {coordinates = [406,1301]; put_marker(coordinates[0], coordinates[1], "3rd"); }
     else if (x == "Nicholas Hoins")
-    {coordinates = [,]; put_marker(coordinates[0], coordinates[1], "3rd"); }
+    {coordinates = [819,1511]; put_marker(coordinates[0], coordinates[1], "3rd"); }
     else if (x == "Nicholas Lengyel")
     {coordinates = [366,883]; put_marker(coordinates[0], coordinates[1], "4th"); }
     else if (x == "Nicole Bramwell")
