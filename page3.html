@@ -1,175 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head> 
 
-<style>
-
-button, input, select, label {
-  font-family: Arial;
-  font-size: 290%;
-  height: 80px;
-  padding: 10px;
-  margin: 10px;
-  margin-bottom: 50px;
-}
-
-div.static {
-  
-  position: static;
-  top: 0;
-  left: 0;
-  width: 980px; 
-  height: 1650px;
-  background:url("./3rdFloor2.svg");
-  background-size: 100% 100%
-} 
-  
-div.centered {
-  position: relative;
-  top: 50px;
-  width: 880px;
-  margin: auto;
-  text-align:right;
-}
-  
-  div.left {
-  position: relative;
-  top: 925px;
-  left: 50px;
-  width: 190px;
-}
-  
-div.updated {
-  position: absolute;
-  top: 200px;
-  width: 918px;
-  text-align:right;
-  color:#999999; 
-  font-family:Arial; 
-  font-size: 32px;
-}
-  
-</style>  
-
-<script type="text/javascript" src="./javascript.js"></script>
-
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./javascript.js"></script>
+  <title>Zynex Building</title>
 </head>
 
+<body id="body" style="min-height: 1650px; width:980px; background-color:black;">
 
-<body style="min-height: 1650px; width:980px; background-color:black;">
+  <div id="map" class="static" style="width:980px; background-color:black;">
+    <div class="centered">
+      <form name="select" id="selectForm">
+        <label for="mySelect" style="color:#000000;">A-C:</label>
+        <select id="mySelect" onchange="find_desk()" style="width:82%;">
+          <option>Name</option>
+          <option>Kaitlyn Smith</option>
+          <option>Kalie DePold</option>
+          <option>Kamela Gjinaj</option>
+          <option>Karsten Talaber</option>
+          <option>Katherine Hardin</option>
+          <option>Katherine Vidal</option>
+          <option>Kathleen Salomonson</option>
+          <option>Katy Coven</option>
+          <option>Kayla Cunningham</option>
+          <option>Kayli Trengen</option>
+          <option>Kelli Moore</option>
+          <option>Kelly Farragher</option>
+          <option>Kelly Jordan</option>
+          <option>Kelsey Crane</option>
+          <option>Kelsey Hays</option>
+          <option>Kelsey Houchen</option>
+          <option>Kenny Compton</option>
+          <option>Kenzie Sand</option>
+          <option>Kevin Fernandez</option>
+          <option>Kiah Rouse</option>
+          <option>Kiersten Greguric</option>
+          <option>Kim Botts</option>
+          <option>Kim Frost</option>
+          <option>Kimberly Moore</option>
+          <option>Kirk Usui</option>
+          <option>Kristine Condie</option>
+          <option>Kyla Barela</option>
+          <option>Kyle McCauley</option>
+          <option>Kylie Rose</option>
+          <option>Kyra Edgington</option>
+          <option>Lacey Huckle</option>
+          <option>Lahari Kavali</option>
+          <option>Laura Beuthel</option>
+          <option>Lauren Coker</option>
+          <option>Lauren Dale</option>
+          <option>Lauren Jopson</option>
+          <option>Lauren Mackrie</option>
+          <option>Lexus Thomas</option>
+          <option>Liliana Vidal</option>
+          <option>Lily Yesayan</option>
+          <option>Linda Sirchia</option>
+          <option>Lisa Meiring</option>
+          <option>Liz Starcevich</option>
+          <option>Lizz Creason</option>
+          <option>Loveland Conference</option>
+          <option>Lucas Martinez</option>
+          <option>Luke Lee</option>
+          <option>Lyzette Gonzales</option>
+          <option>Madison Willers</option>
+          <option>Mai Chartprakarn</option>
+          <option>Marcus Loureiro-Estrada</option>
+          <option>Maria McGowan</option>
+          <option>Mariam Kyabou</option>
+          <option>Mary McHugh</option>
+          <option>Matheson Lindley</option>
+          <option>Matin Rabbani</option>
+          <option>Matt Gonzales</option>
+          <option>Matthew Maher</option>
+          <option>Matthew Schaps</option>
+          <option>Megan Brockway</option>
+          <option>Megan Chalupsky</option>
+          <option>Megan Ludvigsen</option>
+          <option>Megan Watry</option>
+          <option>Meghan Jackson</option>
+          <option>Melissa Laurienti</option>
+          <option>Meyada Mertami</option>
+          <option>Michael Cuasito</option>
+          <option>Michael Dicicco</option>
+          <option>Michael Majoue</option>
+          <option>Michael Webb</option>
+          <option>Michelle Brusco</option>
+          <option>Miguel Quintana</option>
+          <option>Mikayla Rice</option>
+          <option>Mitchell Johnson</option>
+          <option>Molly Witt</option>
+          <option>Morgan Diettert</option>
+          <option>Natalia Soureka</option>
+          <option>Navneet Saini</option>
+          <option>Nicholas Hoins</option>
+          <option>Nicholas Lengyel</option>
+          <option>Nicole Bramwell</option>
+          <option>Nicole Esquivel</option>
+          <option>Nicolette DiAntonio</option>
+          <option>Noah Robinson</option>
+        </select>
+      </form>
+    </div>
 
-<div id="map" class="static" style="width:980px; background-color:black;">
- <div class="centered">
-  <form name="select" id="selectForm">
-  <label for="mySelect" style="color:#000000;">K-O:</label>
-  <select id="mySelect" onchange="find_desk()" style="width:81%;">
-<option>Name</option>
-<option>Kaitlyn Smith</option>
-<option>Kalie DePold</option>
-<option>Kamela Gjinaj</option>
-<option>Karsten Talaber</option>
-<option>Katherine Hardin</option>
-<option>Kathleen Salomonson</option>
-<option>Katherine Vidal</option>    
-<option>Katy Coven</option>
-<option>Kayla Cunningham</option>
-<option>Kayli Trengen</option>
-<option>Kelli Moore</option>
-<option>Kelly Farragher</option>
-<option>Kelly Jordan</option>
-<option>Kelsey Crane</option>
-<option>Kelsey Hays</option>
-<option>Kelsey Houchen</option>
-<option>Kenny Compton</option>    
-<option>Kenzie Sand</option> 
-<option>Kevin Fernandez</option>
-<option>Kiah Rouse</option>
-<option>Kiersten Greguric</option>
-<option>Kim Botts</option>
-<option>Kim Frost</option>
-<option>Kimberly Moore</option>
-<option>Kirk Usui</option>
-<option>Kristine Condie</option>
-<option>Kyla Barela</option>
-<option>Kyle McCauley</option>
-<option>Kylie Rose</option>
-<option>Kyra Edgington</option>
-<option>Lacey Huckle</option>
-<option>Lahari Kavali</option>
-<option>Laura Beuthel</option>
-<option>Lauren Coker</option>
-<option>Lauren Dale</option>
-<option>Lauren Jopson</option>
-<option>Lauren Mackrie</option>
-<option>Lexus Thomas</option>
-<option>Liliana Vidal</option>
-<option>Lily Yesayan</option>
-<option>Linda Sirchia</option>
-<option>Lisa Meiring</option>
-<option>Liz Starcevich</option>
-<option>Lizz Creason</option>
-<option>Loveland Conference</option>
-<option>Lucas Martinez</option>
-<option>Luke Lee</option>
-<option>Lyzette Gonzales</option> 
-<option>Madison Willers</option>
-<option>Mai Chartprakarn</option>
-<option>Marcus Loureiro-Estrada</option>
-<option>Maria McGowan</option>
-<option>Mariam Kyabou</option>
-<option>Mary McHugh</option>
-<option>Matheson Lindley</option>
-<option>Matin Rabbani</option>
-<option>Matt Gonzales</option>
-<option>Matthew Maher</option>
-<option>Matthew Schaps</option>
-<option>Megan Brockway</option>
-<option>Megan Chalupsky</option>
-<option>Megan Ludvigsen</option>
-<option>Megan Watry</option>
-<option>Meghan Jackson</option>
-<option>Melissa Laurienti</option>
-<option>Meyada Mertami</option>
-<option>Michael Cuasito</option>
-<option>Michael Dicicco</option>
-<option>Michael Majoue</option>
-<option>Michael Webb</option>
-<option>Michelle Brusco</option>
-<option>Miguel Quintana</option>
-<option>Mikayla Rice</option>
-<option>Mitchell Johnson</option>
-<option>Molly Witt</option>
-<option>Morgan Diettert</option>
-<option>Natalia Soureka</option>
-<option>Navneet Saini</option>
-<option>Nicholas Hoins</option>
-<option>Nicholas Lengyel</option>
-<option>Nicole Bramwell</option>
-<option>Nicole Esquivel</option>
-<option>Nicolette DiAntonio</option>
-<option>Noah Robinson</option>
-  </select>
-</form>
-</div>
-  
-  <img 
-  id="marker" 
-  src="./dot2.png" 
-  width="17px" 
-  height="17px" 
-  style="display:none; 
-  position:absolute;"
-  />
+    <img id="marker" src="./dot2.png" width="17px" height="17px" style="display:none;
+  position:absolute;" />
 
-<div class="left">
-<button style="width:100%" onclick="window.location.href='./index.html'">A-C</button>
-<button style="width:100%" onclick="window.location.href='./page2.html'">D-J</button>
-<button style="width:100%" onclick="window.location.href='./page3.html'">K-O</button>
-<button style="width:100%" onclick="window.location.href='./page4.html'">P-Z</button>
- </div>
+    <div class="left">
+      <button style="width:100%" onclick="window.location.href='./index.html'">A-C</button>
+      <button style="width:100%" onclick="window.location.href='./page2.html'">D-J</button>
+      <button style="width:100%" onclick="window.location.href='./page3.html'">K-O</button>
+      <button style="width:100%" onclick="window.location.href='./page4.html'">P-Z</button>
+    </div></div>
 
-</div>
-
-<div class="updated">Updated: 8/23</p>
+    <div class="updated">Updated: 9/1</p>
 </body>
+
 </html>
