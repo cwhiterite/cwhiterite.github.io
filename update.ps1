@@ -92,7 +92,6 @@ function Format-HTML {
   return $snippet;
 }
 
-
 [System.Collections.ArrayList]$users = Import-CSV ".\users.csv";
 $users = $users | Sort-Object -Property Name;
 $users | Export-Csv C:\temp\users.csv -NoTypeInformation;
