@@ -1,1 +1,0 @@
-# cwhiterite.github.io
