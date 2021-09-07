@@ -114,3 +114,8 @@ $null = Format-HTML -Range $ac -List $users -File $index -Date "9/3" -Page 1;
 $null = Format-HTML -Range $dj -List $users -File $page2 -Date "9/3" -Page 2;
 $null = Format-HTML -Range $ko -List $users -File $page3 -Date "9/3" -Page 3;
 $null = Format-HTML -Range $pz -List $users -File $page4 -Date "9/3" -Page 4;
+
+
+for ($i = 0; $i -lt $array.Count; $i++) {
+  
+}
