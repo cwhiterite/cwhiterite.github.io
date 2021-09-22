@@ -116,8 +116,8 @@ $page2 = ".\page2.html"
 $page3 = ".\page3.html"
 $page4 = ".\page4.html"
 
-$null = Format-HTML -Range $ac -List $users -File $index -Date "9/21" -Page 1;
-$null = Format-HTML -Range $dj -List $users -File $page2 -Date "9/21" -Page 2;
-$null = Format-HTML -Range $ko -List $users -File $page3 -Date "9/21" -Page 3;
-$null = Format-HTML -Range $pz -List $users -File $page4 -Date "9/21" -Page 4;
+$null = Format-HTML -Range $ac -List $users -File $index -Date "9/22" -Page 1;
+$null = Format-HTML -Range $dj -List $users -File $page2 -Date "9/22" -Page 2;
+$null = Format-HTML -Range $ko -List $users -File $page3 -Date "9/22" -Page 3;
+$null = Format-HTML -Range $pz -List $users -File $page4 -Date "9/22" -Page 4;
 
